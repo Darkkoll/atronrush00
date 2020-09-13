@@ -30,7 +30,7 @@ void	rush(int x, int y)
 
 	xindex = 0;
 	yindex = 0;
-	if (x <= 0 || y == 0)
+	if (x <= 0 || y <= 0)
 		return;
 	while (yindex < y)
 	{
